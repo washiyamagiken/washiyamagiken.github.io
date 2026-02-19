@@ -374,6 +374,28 @@ img {
   background-color: #333;
 }
 
+.article-body h4 {
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-left: 1em;
+}
+
+.article-body h4:not(:first-child) {
+  margin-top: 25px;
+}
+
+.article-body h4::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  content: "";
+  /* border-radius: 3px; */
+  /* background-color: #333; */
+}
+
 .article-body p {
   font-size: 15px;
   line-height: 1.8;
@@ -381,6 +403,7 @@ img {
 }
 
 .article-body li {
+  margin-bottom: 0.5em;
   margin-left: 30px;
 }
 
@@ -551,6 +574,15 @@ img {
 
   .article-body h3:not(:first-child) {
     margin-top: 30px;
+  }
+
+  .article-body h4 {
+    font-size: 14px;
+    padding-left: .8em;
+  }
+
+  .article-body h4:not(:first-child) {
+    margin-top: 15px;
   }
 
   .article-body p {
