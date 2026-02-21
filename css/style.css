@@ -284,6 +284,15 @@ img {
   margin-bottom: 30px;
 }
 
+.profile-body ul li p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.profile-body ul li {
+  margin-left: 1.5em;
+  margin-bottom: 1.0em;
+}
+
 /*--------------------------------
  Contact
 ---------------------------------*/
@@ -556,6 +565,15 @@ img {
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
   }
+
+  .profile-body ul li p:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .profile-body ul li {
+    margin-bottom: 15px;
+  }
+
 
   /* フッター */
   .footer {
